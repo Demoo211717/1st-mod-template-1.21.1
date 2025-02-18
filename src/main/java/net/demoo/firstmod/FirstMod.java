@@ -1,5 +1,6 @@
 package net.demoo.firstmod;
 
+import net.demoo.firstmod.block.ModBlocks;
 import net.demoo.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,8 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
