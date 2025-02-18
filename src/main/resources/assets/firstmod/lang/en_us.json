@@ -3,5 +3,8 @@
   "item.firstmod.raw_ali_emre_garnet": "Raw Ali Emre Garnet",
 
   "block.firstmod.ali_emre_block": "Block of Ali Emre",
-  "block.firstmod.raw_ali_emre_block": "Block of Raw Ali Emre"
+  "block.firstmod.raw_ali_emre_block": "Block of Raw Ali Emre",
+
+  "itemgroup.firstmod.ali_emre_items": "Ali Emre Items",
+  "itemgroup.firstmod.ali_emre_blocks": "Ali Emre Blocks"
 }

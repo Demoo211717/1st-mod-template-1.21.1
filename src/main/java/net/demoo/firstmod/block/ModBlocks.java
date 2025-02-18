@@ -12,15 +12,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-import javax.xml.namespace.QName;
-
 public class ModBlocks {
 
-    private static final Block ALI_EMRE_BLOCK = registerBlock("ali_emre_block",
+    public static final Block ALI_EMRE_BLOCK = registerBlock("ali_emre_block",
         new Block(AbstractBlock.Settings.create().strength(2f)
             .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
-    private static final Block RAW_ALI_EMRE_BLOCK = registerBlock("raw_ali_emre_block",
+    public static final Block RAW_ALI_EMRE_BLOCK = registerBlock("raw_ali_emre_block",
         new Block(AbstractBlock.Settings.create().strength(2f)
             .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
