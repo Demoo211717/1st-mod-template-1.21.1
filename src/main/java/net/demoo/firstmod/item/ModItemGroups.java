@@ -13,21 +13,21 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup ALI_EMRE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FirstMod.MOD_ID, "ali_emre_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ALI_EMRE_GARNET))
-                .displayName(Text.translatable("itemgroup.firstmod.ali_emre_items"))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SULFUR_GARNET))
+                .displayName(Text.translatable("itemgroup.firstmod.sulfur_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.ALI_EMRE_GARNET);
-                        entries.add(ModItems.RAW_ALI_EMRE_GARNET);
+                        entries.add(ModItems.SULFUR_GARNET);
+                        entries.add(ModItems.RAW_SULFUR_GARNET);
                     }).build());
 
 
     public static final ItemGroup ALI_EMRE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(FirstMod.MOD_ID, "ali_emre_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ALI_EMRE_BLOCK))
-                    .displayName(Text.translatable("itemgroup.firstmod.ali_emre_blocks"))
+            Identifier.of(FirstMod.MOD_ID, "sulfur_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.SULFUR_BLOCK))
+                    .displayName(Text.translatable("itemgroup.firstmod.sulfur_blocks"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.ALI_EMRE_BLOCK);
-                        entries.add(ModBlocks.RAW_ALI_EMRE_BLOCK);
+                        entries.add(ModBlocks.SULFUR_BLOCK);
+                        entries.add(ModBlocks.RAW_SULFUR_BLOCK);
                     }).build());
 
     public static void registerModItemGroups() {

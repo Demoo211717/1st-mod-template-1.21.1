@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "firstmod:block/ali_emre_block"
+    "all": "firstmod:block/raw_sulfur_block"
   }
 }

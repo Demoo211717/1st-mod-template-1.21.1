@@ -14,11 +14,11 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block ALI_EMRE_BLOCK = registerBlock("ali_emre_block",
+    public static final Block SULFUR_BLOCK = registerBlock("sulfur_block",
         new Block(AbstractBlock.Settings.create().strength(2f)
             .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
-    public static final Block RAW_ALI_EMRE_BLOCK = registerBlock("raw_ali_emre_block",
+    public static final Block RAW_SULFUR_BLOCK = registerBlock("raw_sulfur_block",
         new Block(AbstractBlock.Settings.create().strength(2f)
             .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
@@ -36,8 +36,8 @@ public class ModBlocks {
         FirstMod.LOGGER.info("Registering Mod Blocks for " + FirstMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register((entries) -> {
-            entries.add(ALI_EMRE_BLOCK);
-            entries.add(RAW_ALI_EMRE_BLOCK);
+            entries.add(SULFUR_BLOCK);
+            entries.add(RAW_SULFUR_BLOCK);
         });
     }
 
