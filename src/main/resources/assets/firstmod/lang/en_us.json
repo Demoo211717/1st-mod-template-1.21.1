@@ -5,6 +5,9 @@
   "block.firstmod.sulfur_block": "Block of Sulfur",
   "block.firstmod.raw_sulfur_block": "Block of Raw Sulfur",
 
+  "block.firstmod.sulfur_ore": "Block of Sulfur Ore",
+  "block.firstmod.sulfur_deepslate_ore": "Block of Sulfur Deepslate Ore",
+
   "itemgroup.firstmod.sulfur_items": "Sulfur Items",
   "itemgroup.firstmod.sulfur_blocks": "Sulfur Blocks"
 }

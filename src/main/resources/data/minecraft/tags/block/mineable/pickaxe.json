@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:sulfur_block",
+    "firstmod:raw_sulfur_block",
+    "firstmod:sulfur_ore",
+    "firstmod:sulfur_deepslate_ore"
+  ]
+}
