@@ -1,12 +1,15 @@
 {
   "item.firstmod.sulfur_garnet": "Sulfur Garnet",
   "item.firstmod.raw_sulfur_garnet": "Raw Sulfur Garnet",
+  "item.firstmod.chisel": "Chisel",
 
   "block.firstmod.sulfur_block": "Block of Sulfur",
   "block.firstmod.raw_sulfur_block": "Block of Raw Sulfur",
 
   "block.firstmod.sulfur_ore": "Block of Sulfur Ore",
   "block.firstmod.sulfur_deepslate_ore": "Block of Sulfur Deepslate Ore",
+
+  "block.firstmod.magic_block": "Magic Block",
 
   "itemgroup.firstmod.sulfur_items": "Sulfur Items",
   "itemgroup.firstmod.sulfur_blocks": "Sulfur Blocks"
